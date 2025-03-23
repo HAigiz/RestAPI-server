@@ -75,25 +75,25 @@ def delete_contact(contact_id):
 def main():
 
     # Создание контакта
-    new_contact = create_contact(
-        username="Matvey",
-        given_name="Matuey",
-        family_name="Matveyka",
-        phone="89777777777",
-        email="superdupermops@gmail.com",
-        birthdate="15.06.2007"
-    )
+    # new_contact = create_contact(
+    #     username="Matvey",
+    #     given_name="Matuey",
+    #     family_name="Matveyka",
+    #     phone="89777777777",
+    #     email="superdupermops@gmail.com",
+    #     birthdate="15.06.2007"
+    # )
 
-    if new_contact: 
+    # if new_contact: 
         contact_id = new_contact["id"]
         # Обновление контакта
-        update_contact(
-            contact_id,
-            phone="89641328468",
-            email="acouplehoursofsleep@gmail.com"
-        )
+        # update_contact(
+        #     contact_id,
+        #     phone="89641328468",
+        #     email="acouplehoursofsleep@gmail.com"
+        # )
         # # Получение всех контактов
-        get_contacts()
+        # get_contacts()
         
         # # Удаление контакта
         # delete_contact(contact_id)
