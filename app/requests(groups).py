@@ -65,18 +65,18 @@ def delete_group(group_id):
 if __name__ == "__main__":
 
     # Создание группы
-    new_group = create_group(
-        title="Friends",
-        description="My close friends",
-        contacts=[1, 2, 3]
-    )
+    # new_group = create_group(
+    #     title="Friends",
+    #     description="My close friends",
+    #     contacts=[1, 2, 3]
+    # )
 
-    if new_group:
-        group_id = new_group["id"]
+    # if new_group:
+    #     group_id = new_group["id"]
         # # Обновление группы
-        update_group(group_id, title="Best Friends", description="My best friends")
+        # update_group(group_id, title="Best Friends", description="My best friends")
         # # Получение списка групп
-        get_groups()
+        # get_groups()
 
         # # Удаление группы
         # delete_group(group_id)
